@@ -167,6 +167,66 @@ container {
   animation-delay: -2.5s;
 }
 
+.confetti:nth-child(11) {
+  background-color: #f2d74e;
+  left: 15%;
+  animation-delay: 0.5s;
+}
+
+.confetti:nth-child(12) {
+  background-color: #f2d74e;
+  left: 20%;
+  animation-delay: -4s;
+}
+
+.confetti:nth-child(13) {
+  background-color: #f2d74e;
+  left: 30%;
+  animation-delay: -3s;
+}
+
+.confetti:nth-child(14) {
+  background-color: #f2d74e;
+  left: 40%;
+  animation-delay: -2.7s;
+}
+
+.confetti:nth-child(15) {
+  background-color: #f2d74e;
+  left: 50%;
+  animation-delay: -1.2s;
+}
+
+.confetti:nth-child(16) {
+  background-color: #f2d74e;
+  left: 60%;
+  animation-delay: -5.5s;
+}
+
+.confetti:nth-child(17) {
+  background-color: #f2d74e;
+  left: 70%;
+  animation-delay: -4.7s;
+}
+
+.confetti:nth-child(18) {
+  background-color: #f2d74e;
+  left: 80%;
+  animation-delay: -3.6s;
+}
+
+.confetti:nth-child(19) {
+  background-color: #f2d74e;
+  left: 90%;
+  animation-delay: -4s;
+}
+
+.confetti:nth-child(20) {
+  background-color: #f2d74e;
+  left: 95%;
+  animation-delay: -1.2s;
+}
+
 @keyframes confetti {
   0% {
     transform: rotateZ(15deg) rotateY(0deg) translate(0, 0);
