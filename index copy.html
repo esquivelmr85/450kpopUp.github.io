@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+    <div class="confetti"></div>
+  
+    <div class="container">
+      <button type="submit" class="btn" onclick="openPopup()">
+        ML Test Popup
+      </button>
+      <div class="popup" id="popup">
+        <img src="merrill.png" />
+        <h4 class="title">
+          Congratulations! You have over 450K miles, it is now time for you to
+          set up your Merrill Lynch Account!!!!! Once your Brokerage Account is
+          set up and you hit 500K miles, we will begin to set aside $0.02 per
+          mile to award RSU’s to you.
+        </h4>
+        <br />
+        <p class="description"></p>
+
+        <h4 class="title">Would you like to opt-in for reminders?</h4>
+
+        <button
+          class="btn-btn"
+          type="button"
+          onclick="closePopup()"
+          class="btn-btn"
+        >
+          No
+        </button>
+
+        <button type="button" onclick="closePopup()" class="btn-btn">
+          Yes
+        </button>
+      </div>
+    </div>
+
+    <script>
+      let popup = document.getElementById("popup");
+
+      function openPopup() {
+        popup.classList.add("open-popup");
+      }
+      function closePopup() {
+        popup.classList.remove("open-popup");
+      }
+    </script>
+    
+  </body>
+</html>
